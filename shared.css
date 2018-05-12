@@ -1,0 +1,192 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.main-header {
+    width: 100%;
+    background: #5f6366;
+    padding: 8px 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.main-header__brand {
+    color: #ececec;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 85px);
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #ececec;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: #659dbd;  
+    border-bottom: 3px solid #659dbd;
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background: #3583af;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: #3583af;
+    background: #bc986a;
+    border-bottom: none;
+}
+
+.main-content {
+    height: 500px;
+}
+
+.main-content__title {
+    text-align: center;
+    vertical-align: middle;
+    padding: 250px;
+}
+
+.main-footer {
+    background: #5f6366;
+    padding: 25px;
+}
+
+.main-footer__section {
+    text-align: center;
+    padding: 0px;
+    margin: 0px 40px 0px;
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+    font-size: 10px;
+}
+
+.main-footer__content {
+    padding: 0;
+    border: 0;
+    text-align: left;
+
+}
+
+.main-footer__description {
+    text-align: left;
+    font-weight: normal;
+    color: #ececec;
+}
+
+.main-footer__title {
+    text-align: left;
+    color: #ececec;
+    font-weight: bold;
+}
+
+.main-footer__phonelists {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #ececec;
+}
+
+.main-footer__phonelist {
+    padding: 4px;
+    text-align: left;
+    color: #ececec;
+}
+
+.footer-social__title {
+    color: #ececec;
+}
+
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
