@@ -30,12 +30,20 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 22px;
+    height: 22px;
+    display: inline-block;
+}
+
+.main-header__brand img {
+    height: 100%;
+    position: relative;
+    top: 2px;
 }
 
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 85px);
+    width: calc(100% - 120px);
     vertical-align: middle;
 }
 
