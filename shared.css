@@ -75,10 +75,11 @@ body {
 }
 
 .main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 160px);
-    vertical-align: middle;
+    display: none;
+}
+
+.brand {
+    padding-left: 200px;
 }
 
 .main-nav__items {
@@ -96,7 +97,6 @@ body {
 .mobile-nav__item a {
     text-decoration: none;
     color: #ececec;
-    /* font-weight: bold; */
     padding: 3px 0;
 }
 
@@ -108,7 +108,6 @@ body {
 
 .main-nav__item--cta a,
 .mobile-nav__item--cta,
-.mobile-nav__item--cta a:hover,
 .mobile-nav__item--cta a:active {
     color: white;
     background: #3583af;
@@ -119,11 +118,11 @@ body {
 
 .main-nav__item--cta a:hover,
 .main-nav__item--cta a:active,
-.mobile-nav__item--cta a:hover,
 .mobile-nav__item--cta a:active {
     color: #3583af;
     background: #bc986a;
     border-bottom: none;
+    width: 250px;
 }
 
 .main-content {
@@ -133,73 +132,65 @@ body {
 .main-content__title {
     text-align: center;
     vertical-align: middle;
-    padding: 250px;
+    padding: 150px;
 }
 
 .main-footer {
     background: #5f6366;
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-    width: 100%;
-}
-
-.main-footer__sections {
-    width: 100%;
-    margin: auto;
-    text-align: left;
-    vertical-align: top;
-}
-
-.sec-one {
-    padding-right: 65px;
-    padding-left: 20px;
-    vertical-align: top;
-}
-
-.sec-one p {
-    color: #ececec;
-    text-align: left;
-}
-
-.main-footer__section {
-    text-align: center;
-    /* padding: 0; */
-    margin: 0;
-    display: inline-block;
-    width: 30%;
-    /* vertical-align: middle; */
-    font-size: 10px;
-    left: 0;
+    padding: 10px;
 }
 
 .main-footer__title {
-    padding: 0;
-    padding-top: 20px;
-    margin: 0;
-    text-align: left;
     color: #AAABB8;
 }
 
-.main-footer__lists {
-    padding: 0;
-    margin: 0;
+.main-footer__description {
+    color: #ececec;
 }
 
 .main-footer__list {
-    padding: 8px 0 ;
-    margin: 0;
     list-style: none;
-    text-align: left;
     color: #ececec;
+    width: 250px;
 }
 
 .main-footer__list a {
     text-decoration: none;
-    padding: 0px;
-    margin: 0px;
     color: #ececec;
 }
+
+.sec-three__lists {
+    text-align: center;
+}
+
+.sec-three__lists li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.Blog {
+        background-color:rgba(251, 143, 61, 0.3);
+    }
+
+    .Facebook {
+        background-color:rgba(59, 89, 152,0.3);
+    }
+
+    .Google {
+        background-color:rgba(221, 75, 57,0.3);
+    }
+
+    .RSS {
+        background-color:rgba(255, 153, 0,0.3);
+    }
+
+    .Twitter {
+        background-color:rgba(0, 172, 237,0.3);
+    }
+
+    .YouTube {
+        background-color:rgba(187, 0, 0,0.3);
+    }
 
 .mobile-nav {
   display: none;
@@ -208,8 +199,8 @@ body {
   top: 0;
   left: 0;
   background: #17252a;
-  width: 50%;
-  height: 100vh;
+  width: 250px;
+  height: 600px;
 }
 
 .mobile-nav__items {
@@ -218,13 +209,90 @@ body {
   list-style: none;
   margin: 10% auto;
   padding: 0;
-  text-align: center;
+  text-align: left;
 }
 
 .mobile-nav__item {
-  margin: 1rem 0;
+  margin: 16px 0;
+  border-bottom: 2px solid white;
 }
 
 .mobile-nav__item a {
-  font-size: 1.5rem;
+  font-size: 24px;
+}
+
+@media(min-width:425px) {
+
+.brand {
+    padding-left: 220px;
+}
+
+}
+@media (min-width: 1024px) {
+
+.toggle-button {
+    display: none;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 160px);
+    vertical-align: middle;
+}
+
+.brand {
+    padding-left: 0;
+}
+
+.main-content__title {
+    padding: 250px;
+}
+
+.sec-one h1 {
+    padding-top: 0;
+}
+
+.sec-one h1 {
+    font-size: 16px;
+    padding-right: 50px;
+    margin: 0;
+}
+
+.sec-two h1 {
+    padding: 5px 50px;
+    margin: 0;
+}
+
+.sec-three h1 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.main-footer__section {
+    width: 30%;
+    display: inline-block;
+}
+
+.main-footer__title {
+    font-size: 20px;
+}
+
+.sec-two__lists {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.sec-three__lists {
+    text-align: center;
+    padding: 0;
+}
+
+.sec-three__lists li {
+    display: inline-block;
+    width: 100px;
+    margin: 5px;
+    padding: 8px;
+}
+
 }
