@@ -221,6 +221,12 @@ body {
   font-size: 24px;
 }
 
+@media(min-width:360px) {
+
+.brand {
+    padding-left: 150px;
+}
+
 @media(min-width:425px) {
 
 .brand {
