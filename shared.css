@@ -157,6 +157,7 @@ body {
 .sec-three__lists li {
     padding: 10px;
     margin: 10px;
+    list-style: none;
 }
 
 .Blog {
