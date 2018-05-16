@@ -9,7 +9,6 @@ body {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Roboto Slab', serif;
     margin: 0;
-    background: #E4DBBF;
 }
 
 .backdrop {
@@ -25,7 +24,7 @@ body {
 
 .main-header {
     width: 100%;
-    background: #AAABB8;
+    background: #373737;
     padding: 8px 16px;
     position: fixed;
     top: 0;
@@ -101,6 +100,11 @@ body {
     padding: 3px 0;
 }
 
+#content__freecall {
+    color: #984b43;
+    padding: 10px;
+}
+
 .main-nav__item a:hover,
 .main-nav__item a:active {
     color: #659dbd;  
@@ -108,7 +112,6 @@ body {
 }
 
 .main-nav__item--cta a,
-.mobile-nav__item--cta,
 .mobile-nav__item--cta a:active {
     color: white;
     background: #3583af;
@@ -126,9 +129,13 @@ body {
     width: 250px;
 }
 
+.main-nav__item--cta,
+.mobile-nav__item--cta {
+    border-bottom: 3px solid #659dbd
+}
 
 .main-footer {
-    background: #5f6366;
+    background: #373737;
     padding: 10px;
 }
 
@@ -164,6 +171,11 @@ body {
     padding: 10px;
     margin: 10px;
     list-style: none;
+}
+
+.sec-three__lists,
+.sec-two__lists {
+    padding: 0;
 }
 
 .Blog {
