@@ -1,4 +1,10 @@
-<!--CSS FOR GET INVOLVED INDEX-->
+#getinvolved-content {
+    margin: 10px;
+    padding: 50px;
+    height: 400px;
+}
 
-
-
+.getinvolved-content__header {
+    text-align: center;
+    padding: 100px;
+}
