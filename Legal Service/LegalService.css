@@ -1,7 +1,10 @@
-<!--CSS FOR LEGAL SERVICES INDEX-->
+#legalservice-content {
+    margin: 10px;
+    padding: 50px;
+    height: 400px;
+}
 
-
-
-
-
-
+.legalservice-content__header {
+    text-align: center;
+    padding: 100px;
+}
